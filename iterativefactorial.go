@@ -9,11 +9,10 @@ func IterativeFactorial(nb int) int {
 	}
 
 	b := 1
-	c := nb
 
-	for nb := 1; nb <= c; nb++ {
+	for i := 1; i <= nb; nb++ {
 
-		b = b * nb
+		b = b * i
 	}
 
 	return b
