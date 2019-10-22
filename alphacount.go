@@ -2,7 +2,7 @@ package piscine
 
 import "fmt"
 
-func AlphaCount(str string) int {
+func AlphaCount (str string) int {
 	count := 0
 	for i := 0; i < len(str); i++ {
 		count++
